@@ -28,4 +28,4 @@ def list_of_lists(list_of_lists_to_modify):
         modified_list.append(list_of_lists_to_modify[1][1:4])
     if len(list_of_lists_to_modify) >= 3:
         modified_list.append(list_of_lists_to_modify[2][-2:])
-    return modified_list
+    return modified_list
